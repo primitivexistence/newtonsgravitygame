@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD4CEF0D1F8BF53400963617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4CEF0C1F8BF53400963617 /* AppDelegate.swift */; };
+		AD4CEF0F1F8BF53400963617 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4CEF0E1F8BF53400963617 /* DrawerViewController.swift */; };
+		AD4CEF121F8BF53400963617 /* Simulator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4CEF101F8BF53400963617 /* Simulator.storyboard */; };
+		AD4CEF141F8BF53400963617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4CEF131F8BF53400963617 /* Assets.xcassets */; };
+		AD4CEF171F8BF53400963617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4CEF151F8BF53400963617 /* LaunchScreen.storyboard */; };
+		AD507BA61F988E22004AF53D /* SimpleObjectGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD507BA51F988E22004AF53D /* SimpleObjectGestureRecognizer.swift */; };
+		ADF309951F8C12DA00E15A28 /* SimpleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF309941F8C12DA00E15A28 /* SimpleObject.swift */; };
+		ADF309971F8C134100E15A28 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF309961F8C134100E15A28 /* Point.swift */; };
+		ADF309991F8C13CA00E15A28 /* Velocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF309981F8C13CA00E15A28 /* Velocity.swift */; };
+		C7119B9F2002C7B500176802 /* ObjectListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7119B9E2002C7B500176802 /* ObjectListManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD4CEF091F8BF53400963617 /* newtonsgravity_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newtonsgravity_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4CEF0C1F8BF53400963617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD4CEF0E1F8BF53400963617 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		AD4CEF111F8BF53400963617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Simulator.storyboard; sourceTree = "<group>"; };
+		AD4CEF131F8BF53400963617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4CEF161F8BF53400963617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD4CEF181F8BF53400963617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD507BA51F988E22004AF53D /* SimpleObjectGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleObjectGestureRecognizer.swift; sourceTree = "<group>"; };
+		ADF309941F8C12DA00E15A28 /* SimpleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleObject.swift; sourceTree = "<group>"; };
+		ADF309961F8C134100E15A28 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		ADF309981F8C13CA00E15A28 /* Velocity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Velocity.swift; sourceTree = "<group>"; };
+		C7119B9E2002C7B500176802 /* ObjectListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectListManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4CEF061F8BF53400963617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4CEF001F8BF53400963617 = {
+			isa = PBXGroup;
+			children = (
+				AD4CEF0B1F8BF53400963617 /* newtonsgravity */,
+				AD4CEF0A1F8BF53400963617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4CEF0A1F8BF53400963617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4CEF091F8BF53400963617 /* newtonsgravity_game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4CEF0B1F8BF53400963617 /* newtonsgravity */ = {
+			isa = PBXGroup;
+			children = (
+				ADF309931F8C12B700E15A28 /* model */,
+				AD4CEF0C1F8BF53400963617 /* AppDelegate.swift */,
+				AD4CEF0E1F8BF53400963617 /* DrawerViewController.swift */,
+				AD4CEF101F8BF53400963617 /* Simulator.storyboard */,
+				AD4CEF131F8BF53400963617 /* Assets.xcassets */,
+				AD4CEF151F8BF53400963617 /* LaunchScreen.storyboard */,
+				AD4CEF181F8BF53400963617 /* Info.plist */,
+				AD507BA51F988E22004AF53D /* SimpleObjectGestureRecognizer.swift */,
+				C7119B9E2002C7B500176802 /* ObjectListManager.swift */,
+			);
+			path = newtonsgravity;
+			sourceTree = "<group>";
+		};
+		ADF309931F8C12B700E15A28 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ADF309941F8C12DA00E15A28 /* SimpleObject.swift */,
+				ADF309961F8C134100E15A28 /* Point.swift */,
+				ADF309981F8C13CA00E15A28 /* Velocity.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD4CEF081F8BF53400963617 /* newtonsgravity_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4CEF1B1F8BF53400963617 /* Build configuration list for PBXNativeTarget "newtonsgravity_game" */;
+			buildPhases = (
+				AD4CEF051F8BF53400963617 /* Sources */,
+				AD4CEF061F8BF53400963617 /* Frameworks */,
+				AD4CEF071F8BF53400963617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newtonsgravity_game;
+			productName = newtonsgravity;
+			productReference = AD4CEF091F8BF53400963617 /* newtonsgravity_game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4CEF011F8BF53400963617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kutay Agbal";
+				TargetAttributes = {
+					AD4CEF081F8BF53400963617 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X4S852F582;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD4CEF041F8BF53400963617 /* Build configuration list for PBXProject "newtonsgravity_game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4CEF001F8BF53400963617;
+			productRefGroup = AD4CEF0A1F8BF53400963617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4CEF081F8BF53400963617 /* newtonsgravity_game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4CEF071F8BF53400963617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4CEF171F8BF53400963617 /* LaunchScreen.storyboard in Resources */,
+				AD4CEF141F8BF53400963617 /* Assets.xcassets in Resources */,
+				AD4CEF121F8BF53400963617 /* Simulator.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4CEF051F8BF53400963617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7119B9F2002C7B500176802 /* ObjectListManager.swift in Sources */,
+				AD4CEF0F1F8BF53400963617 /* DrawerViewController.swift in Sources */,
+				ADF309971F8C134100E15A28 /* Point.swift in Sources */,
+				AD507BA61F988E22004AF53D /* SimpleObjectGestureRecognizer.swift in Sources */,
+				ADF309991F8C13CA00E15A28 /* Velocity.swift in Sources */,
+				AD4CEF0D1F8BF53400963617 /* AppDelegate.swift in Sources */,
+				ADF309951F8C12DA00E15A28 /* SimpleObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD4CEF101F8BF53400963617 /* Simulator.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4CEF111F8BF53400963617 /* Base */,
+			);
+			name = Simulator.storyboard;
+			sourceTree = "<group>";
+		};
+		AD4CEF151F8BF53400963617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4CEF161F8BF53400963617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD4CEF191F8BF53400963617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4CEF1A1F8BF53400963617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4CEF1C1F8BF53400963617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4S852F582;
+				INFOPLIST_FILE = newtonsgravity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kutay.newtonsgravity-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD4CEF1D1F8BF53400963617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4S852F582;
+				INFOPLIST_FILE = newtonsgravity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kutay.newtonsgravity-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4CEF041F8BF53400963617 /* Build configuration list for PBXProject "newtonsgravity_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4CEF191F8BF53400963617 /* Debug */,
+				AD4CEF1A1F8BF53400963617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4CEF1B1F8BF53400963617 /* Build configuration list for PBXNativeTarget "newtonsgravity_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4CEF1C1F8BF53400963617 /* Debug */,
+				AD4CEF1D1F8BF53400963617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4CEF011F8BF53400963617 /* Project object */;
+}
